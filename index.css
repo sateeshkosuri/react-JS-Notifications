@@ -1,0 +1,77 @@
+.bg-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.mainHeading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .mainHeading {
+    font-size: 32px;
+  }
+}
+@media screen and(min-width:768px) {
+  .mainHeading {
+    font-size: 45px;
+  }
+}
+.box-Container {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .box-Container {
+    height: 50px;
+    width: 250px;
+  }
+}
+@media screen and(min-width:768px) {
+  .box-Container {
+    height: 70px;
+    width: 320px;
+  }
+}
+.box {
+  background-color: #0b69ff;
+  border: none;
+}
+.box1 {
+  background-color: #2dca73;
+  border: none;
+}
+.box2 {
+  background-color: #ffb800;
+  border: none;
+}
+.box3 {
+  background-color: #ff0b37;
+  border: none;
+}
+.image {
+  height: 15px;
+  width: 15px;
+  padding: 15px;
+}
+.notificationTitle {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 768px) {
+  .notificationTitle {
+    font-size: 15px;
+  }
+}
+@media screen and(min-width:768px) {
+  .notificationTitle {
+    font-size: 20px;
+  }
+}
